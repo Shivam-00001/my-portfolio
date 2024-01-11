@@ -241,11 +241,24 @@ nav ul li a {
 
 #header {
   background: url("../images/shivamb.jpg") repeat scroll center center / cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  /* display: flex; */
 
 }
+@media (max-width :654px){
+  #header{
+      height: 100hv;
+      width: 100%;
 
+  }
+}
+@media (min-width : 279px){
+  #header{
+    height: 100hv;
+    width: 100%;
+  }
+}
 
 #header .header-content {
   height: 100vh;
