@@ -131,12 +131,12 @@ header .follow a:hover{
 }
 
 .cursor-1.active{
-    height:7rem;
-    width:7rem;
+    height:4rem;
+    width:4rem;
     opacity: .3;
 }
 
-.cursor-2{
+/* .cursor-2{
     position: absolute;
     top:0; left:0;
     height:4rem; width:4rem;
@@ -146,11 +146,11 @@ header .follow a:hover{
     border-radius: 50%;
     z-index: 10000;
     transition: .3s linear;
-}
+} */
 
-.cursor-2.active{
+/* .cursor-2.active{
     display: none;
-}
+} */
 
 .home{
     display: flex;
